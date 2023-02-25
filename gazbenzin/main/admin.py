@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Gaz, Benzin
 
-# Register your models here.
+admin.site.register(Gaz)
+admin.site.register(Benzin)
